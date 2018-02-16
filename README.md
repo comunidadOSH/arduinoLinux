@@ -21,11 +21,11 @@ sudo apt-get update
 sudo apt-get install oracle-java8-installer
 ```
 
-5. Después de instalar java vamos a proceder a la instalación de la última versión de arduino, en mi caso es la versión 1.8.5 ósea la que acabamos de descargar. Cabe recalcar que debemos cambiar las siguientes instrucciones dependiendo de la versión que estemos instalando:
+5. Después de instalar java vamos a proceder a la instalación de la última versión de arduino, en mi caso es la versión 1.8.5 ósea la que acabamos de descargar, para ello movemos nuestra carpeta de arduino al directorio home del usuario. Cabe recalcar que debemos cambiar las siguientes instrucciones dependiendo de la versión que estemos instalando:
 ```
-sudo mv arduino-1.8.5 /opt
-sudo ln -s /opt/arduino-1.8.5 /opt/arduino
-cd /opt/arduino
+mv arduino-1.8.5 /home/USUARIO/
+sudo ln -s /home/USUARIO/arduino-1.8.5 /home/USUARIO/arduino
+cd /home/USUARIO/arduino
 sudo ./install.sh
 ```
 
