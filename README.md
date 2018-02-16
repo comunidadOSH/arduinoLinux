@@ -12,7 +12,7 @@ Hola como están mi nombre es [Edgar E. Mamani A.](https://www.facebook.com/dEmO
 ```edgar@teamOSH:~$```
 
 3. El IDE de arduino necesita java para poder ejecutarse, para ello verificamos si tenemos java instalado con el comando:
-```java --version```
+```java -version```
 
 4. Si nos muestra la versión de java entonces lo tenemos instalado y podemos continuar con el siguiente paso, caso contrario tenemos que instalarlo:
 ```
@@ -24,7 +24,7 @@ sudo apt-get install oracle-java8-installer
 5. Después de instalar java vamos a proceder a la instalación de la última versión de arduino, en mi caso es la versión 1.8.5 ósea la que acabamos de descargar. Cabe recalcar que debemos cambiar las siguientes instrucciones dependiendo de la versión que estemos instalando:
 ```
 sudo mv arduino-1.8.5 /opt
-sudo ln -s /opt/arduino-1.8.2 /opt/arduino
+sudo ln -s /opt/arduino-1.8.5 /opt/arduino
 cd /opt/arduino
 sudo ./install.sh
 ```
